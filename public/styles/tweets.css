@@ -1,0 +1,38 @@
+.tweeter {
+  border: 5px solid steelblue;
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  margin-top: 40px;
+}
+
+.username {
+  display: flex;
+  width: 95%;
+  justify-content: space-between;
+  padding-left: 1.5em;
+}
+
+.username h5 {
+  color:coral;
+}
+
+.content {
+  border-bottom: 3px solid black;
+  margin:  0 1em;
+}
+
+.notifications {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1.5em;
+}
+
+.fa-solid:hover {
+  color: red;
+}
+
+.tweeter:hover {
+  box-shadow: 10px 5px 5px teal;
+}
