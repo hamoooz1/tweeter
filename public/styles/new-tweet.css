@@ -1,0 +1,27 @@
+.label-text {
+  display: flex;
+  border-bottom: 5px solid #ccc;
+  padding: 3px;
+  flex-direction: column;
+  width: 100%;
+}
+
+.new-tweet {
+  width: 90%;
+}
+
+.counter-submit {
+  font-family: "Bungee", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+.counter-submit button {
+  color: white;
+  background-color: #4056A1;
+}
+
+.error {
+  color: red;
+}

@@ -7,7 +7,7 @@
 // This is used to make the front-end behaviour a little more
 // realistic even while we use a simplistic "in-memory" db.
 
-function someMilliseconds() {
+const someMilliseconds = function () {
   return Math.floor(Math.random() * 400) + 100;
 }
 

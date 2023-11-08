@@ -1,0 +1,20 @@
+header {
+  height: 520px;
+  width: 100%;
+  background-color: orange;
+  background-image: url("https://www.transparenttextures.com/patterns/always-grey.png");
+
+.contents {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contents div {
+  margin-top: 150px;
+}
+
+.contents h2 {
+  margin-top: -150px; /* Adjust the margin as needed */
+}
