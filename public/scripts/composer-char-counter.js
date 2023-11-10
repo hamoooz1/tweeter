@@ -9,7 +9,7 @@ $(document).ready(function () {
       $($counter).addClass("error");
     }
     else {
-      $($counter).removeClasserror("error");
+      $($counter).removeClass("error");
     }
   });
 });
