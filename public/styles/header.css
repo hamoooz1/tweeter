@@ -1,8 +1,7 @@
-header {
-  height: 520px;
+#profile {
   width: 100%;
   background-color: orange;
-  background-image: url("https://www.transparenttextures.com/patterns/always-grey.png");
+  background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
 }
 
 .contents {
@@ -17,5 +16,5 @@ header {
 }
 
 .contents h2 {
-  margin-top: -150px; /* Adjust the margin as needed */
+  margin-top: -150px;
 }

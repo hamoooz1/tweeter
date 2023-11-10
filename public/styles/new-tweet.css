@@ -25,3 +25,10 @@
 .error {
   color: red;
 }
+
+#tweet-text {
+  border: none;
+  border-bottom: 2px solid purple;
+  margin-bottom: 10px;
+}
+

@@ -1,3 +1,4 @@
+
 .navBar {
   position: fixed;
   top: 0;
@@ -18,4 +19,12 @@
   flex-direction: column;
   justify-content: center;
   font-family: 'Source Sans 3', sans-serif;
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .navBar {
+   background-color: orange;
+   background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
+  }
 }
